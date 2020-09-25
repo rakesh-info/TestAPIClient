@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="10dp"
+  tools:context=".MainActivity">
+
+  <EditText
+    android:id="@+id/firstURL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="First URL" />
+
+  <Button
+    android:id="@+id/btnFirstURL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hit First URL" />
+
+  <EditText
+    android:id="@+id/secondURL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Second URL" />
+
+  <Button
+    android:id="@+id/btnSecondURL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hit Second URL" />
+
+  <Button
+    android:id="@+id/btnSQLite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="SQLite" />
+
+  <Button
+    android:id="@+id/btnGoogleLocation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Google Map" />
+
+
+</LinearLayout>
